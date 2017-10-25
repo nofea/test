@@ -5,8 +5,9 @@ void ThisIsAClass::HelloWorld()
    std::cout << "Hello World";
 }
 
-void Entry()
+int main()
 {
     ThisIsAClass a;
     a.HelloWorld();
+    return(1);
 }

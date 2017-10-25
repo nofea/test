@@ -7,6 +7,6 @@ class ThisIsAClass
     void HelloWorld();
 };
 
-void Entry();
+int main();
 
 #endif
