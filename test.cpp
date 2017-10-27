@@ -8,6 +8,8 @@ void ThisIsAClass::HelloWorld()
 int main()
 {
     ThisIsAClass a;
+    a.variable = 10;
+    std::cout << a.variable;
     a.HelloWorld();
     return(1);
 }

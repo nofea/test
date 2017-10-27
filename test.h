@@ -3,8 +3,17 @@
 #include <iostream>
 class ThisIsAClass
 {
-    public:
+public:
+    ThisIsAClass();
+    int variable;
     void HelloWorld();
+
+};
+
+class ThisIsAnotherClass: public ThisIsAClass
+{
+public:
+    ThisIsAnotherClass();
 };
 
 int main();
